@@ -1,70 +1,59 @@
-# Google Book Search MERN Stack Challenge
+# 21-MERN-Book-Search-Engine
 
-## Summary
+## Table of Contents-
+- [21-MERN-Book-Search-Engine](#21-mern-book-search-engine)
+  - [Table of Contents-](#table-of-contents-)
+  - [Licensing](#licensing)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Screenshots](#screenshots)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [Contributing](#contributing)
+  - [Testing](#testing)
+  - [Additional Info](#additional-info)
 
-Usage of Google Books API to create an Graql API with Apollo Server. MERN stack is implemented to create the app. User can sign up and log in for an account, search for a book of their liking and added to a list of saved books, users can also remove the saved books.
+## Licensing
 
-## Tools Used
+[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
-* JavaScript
-* Node.js
-* Express
-* React
-* Apollo Server
-* Graphql
-* Mongodb
-* Mongoose
-* Dotenv
-* Heroku
+Link: [MIT License](https://opensource.org/licenses/MIT)
 
+## Description
 
+This is a MERN stack (MongoDB, Express.js, React.js, Node.js) application that searches Google Books for a given book title, then displays the results. It has a user login function that then provides a method to save desired book titles from the search results to the logged in user's account. The internal database API functions are provided through a GraphQL API using Apollo Server. Security for app is provided by JSON Web Tokens and the `jwt-decode` module for the client side.
 
-# Snapshot
+## Installation
 
-[![Book Search](images/BookSearchDemo.png)]
+NOTE: As of November 2022, Heroku has no "free" accounts, so the demo application has been taken offline until another suitable host can be found.
 
+## Screenshots
 
+![screenshot1](./assets/screenshot1.png)
 
+![screenshot2](./assets/screenshot2.png)
 
-# Table of Contents 
-* [Summary](#Summary)
-* [Tools Used](#Tools)
-* [Snapshot](#Snapshot)
-* [Installation & Database SetUp](#Installation)
-* [Heroku](#Heroku)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+![screesnhot3](./assets/screenshot3.png)
 
-# Installation & Database SetUp
-* To use this app npm init has to be called to create your package.json file.
-* The following necessary Npm dependencies must be installed to run the application properly: the needed dependencies will be found on the package.json file.
-* To properly install the database you must create at cluster on Mongodb atlas.
-* Run "npm start" for the port to start listening with mongoose.
-* This app is deployed on Heroku
+## Usage
 
+As of November 2022, Heroku has no "free" accounts, so the demo application has been taken offline until another suitable host can be found.
 
+## Credits
 
+[React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
 
-# Heroku
+[Apollo Client](https://www.apollographql.com/apollo-client) - A framework for binding data to your UI with GraphQL.
 
+## Contributing
 
-(https://book-search-challenge-21-mern.herokuapp.com/)
+  [Contributor Covenant](https://www.contributor-covenant.org/)
 
+## Testing
 
-# License
-![license badge](https://img.shields.io/badge/license-MIT-brightgreen)
+  No testing is provided.
 
-# Contributing
-​Contributors: N/A
+## Additional Info
 
-# Tests
-N/A
-
-# Questions?
-## Please contact me:
-  * [My GitHub Profile](https://github.com/jcgom3)
-  * [My Github Project Repository](https://github.com/jcgom3/Challenge-21-MERN-Book-Search-Engine/tree/master)
-  * [My Github Deployed IO](https://jcgom3.github.io/Challenge-21-MERN-Book-Search-Engine/)
-  * Email us at: [Jcgom3@gmail.com](mailto:Jcgom3@gmail.com) with questions or make an issue about this project.
+- Github: [cliff-rosenberg](https://github.com/cliff-rosenberg)
+- Email: cliff459 AT icloud.com

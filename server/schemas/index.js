@@ -1,5 +1,5 @@
-const resolvers = require('./resolvers');
+// basic boilerplate for a GraphQL API setup
 const typeDefs = require('./typeDefs');
+const resolvers = require('./resolvers');
 
-
-module.exports = {resolvers, typeDefs};
+module.exports = { typeDefs, resolvers };
